@@ -93,7 +93,7 @@ gulp.task('babel', () =>
     input: 'src/js/main.js',
     sourcemap: true,
     format: 'iife',
-    name: 'raphael',
+    name: 'simple-html-project',
     plugins: [
       babel({
         exclude: 'node_modules/**',
